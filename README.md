@@ -1,6 +1,6 @@
 # ⏳ Countdown Timer
 
-![Countdown Screenshot](Screenshot from 2025-07-22 15-07-03.png)
+![Countdown Screenshot](Screenshot.png)
 
 A beautiful **Countdown Timer** built with **HTML5 + Tailwind CSS + Font Awesome**, featuring:
 
@@ -58,7 +58,7 @@ A beautiful **Countdown Timer** built with **HTML5 + Tailwind CSS + Font Awesome
 
 ## 💡 Screenshot
 
-![Countdown Screenshot](Screenshot from 2025-07-22 15-07-03.png)
+![Countdown Screenshot](Screenshot.png)
 
 ---
 
