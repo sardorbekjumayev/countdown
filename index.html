@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Countdown Timer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome CDN -->
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+  <!-- Agar kit id yo'q bo'lsa, public free link bilan ishlatsa bo'ladi -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-100 to-purple-200 dark:from-gray-800 dark:to-gray-900 flex items-center justify-center h-screen transition-colors duration-500">
+
+  <div class="bg-white dark:bg-gray-800 bg-opacity-80 dark:bg-opacity-80 backdrop-blur-sm rounded-2xl shadow-2xl p-10 text-center max-w-md w-full">
+    <h1 class="text-3xl font-bold mb-6 text-gray-800 dark:text-gray-200">Countdown Timer</h1>
+    
+    <div id="countdown" class="text-5xl font-semibold text-purple-700 dark:text-purple-300 mb-8">
+      00:00:00
+    </div>
+
+    <div class="flex justify-center space-x-4 mb-6">
+      <button id="startBtn" class="flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-xl shadow-md transition">
+        <i class="fas fa-play"></i> Start
+      </button>
+      <button id="stopBtn" class="flex items-center gap-2 bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-xl shadow-md transition">
+        <i class="fas fa-stop"></i> Stop
+      </button>
+      <button id="restartBtn" class="flex items-center gap-2 bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-xl shadow-md transition">
+        <i class="fas fa-rotate-right"></i> Restart
+      </button>
+    </div>
+
+    <button id="toggleDark" class="flex items-center gap-2 bg-gray-700 hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-xl shadow-md transition">
+      <i class="fas fa-moon"></i> Toggle Dark Mode
+    </button>
+  </div>
+
+
+
+
+    <script src="main.js"></script>
+
+
+</body>
+</html>
