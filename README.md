@@ -86,5 +86,5 @@ If you like this project, please **star ⭐ the repository** and follow for more
 
 ---
 
-> Designed with ❤️ by [Your Name](https://github.com/sardorbekjumayev)
+> Designed with ❤️ by [Sardorbek Jumayev](https://github.com/sardorbekjumayev)
 
